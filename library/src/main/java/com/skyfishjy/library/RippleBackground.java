@@ -151,4 +151,8 @@ public class RippleBackground extends RelativeLayout{
     public boolean isRippleAnimationRunning(){
         return animationRunning;
     }
+
+    public void setRippleColor(int rippleColor) {
+        this.rippleColor = rippleColor;
+    }
 }
